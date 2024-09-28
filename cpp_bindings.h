@@ -1,5 +1,5 @@
 
-#include "wifi_hal.h"
+#include <hardware_legacy/wifi_hal.h>
 #include "common.h"
 #include "sync.h"
 

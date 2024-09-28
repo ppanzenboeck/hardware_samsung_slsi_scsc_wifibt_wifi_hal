@@ -27,10 +27,10 @@
 #define LOG_TAG  "WifiHAL"
 
 #include <utils/Log.h>
-#include "wifi_hal.h"
+#include <hardware_legacy/wifi_hal.h>
 #include "common.h"
 #include "cpp_bindings.h"
-#include "roam.h"
+#include <hardware_legacy/roam.h>
 
 
 #define WIFI_HAL_CMD_SOCK_PORT       644

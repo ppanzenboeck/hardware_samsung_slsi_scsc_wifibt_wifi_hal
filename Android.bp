@@ -26,5 +26,8 @@ cc_library_static {
     ],
 
     cflags: ["-Wno-unused-parameter"],
-    header_libs: ["liblog_headers"],
+    header_libs: [
+        "liblog_headers",
+        "wifi_legacy_headers",
+    ],
 }
